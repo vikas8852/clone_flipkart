@@ -1,0 +1,277 @@
+*{
+    margin: 0px;
+    paddind:0px;
+}
+head{
+   
+}
+.hd{
+    position: sticky;
+    top: 0;
+    background-color: #2874f0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    gap: 20px;
+    /* width: 100%;
+    height: 59px; */
+}
+#hd{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:0px;
+}
+.sea{
+    display: flex;
+    position: absolute;
+    color: blue;
+    padding-left: 350px;
+    padding-top: 8px;
+}
+.new{
+    /* paddind:40px; */
+    width:380px;
+    height: 35px;
+}
+.new2{
+    height:35px ;
+}
+.search{
+     height: 100%;
+     /* width: 375px; */
+     display: flex;
+     box-shadow: 1px 0px 2px black;
+}
+.input{
+    
+   /* align-items: center;
+   justify-content: center; */
+}
+
+
+#text{
+    color:yellow
+}
+ a{
+    text-decoration: none;
+    color: white;
+    font-style: bold;
+    font-size: 20px;
+}
+.te{
+    color:black
+}
+.images{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap:40px;
+    box-shadow: 0px .05px 2px black
+    
+    
+}
+.parent{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+    
+}
+
+.parent:hover{
+  
+   transform: scale(1.1125);
+}
+.foot{
+   
+    background-color: #042d4f;
+    gap:40px;
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+
+}
+.foot2{
+    color:#7793aa;
+    font-size: 15px;
+    white-space: nowrap;
+    
+}
+.about{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    line-height: 25px;
+    font-size: 5px;
+    margin-bottom: 20px;
+   
+}
+.about2{
+    margin-top: 30px;
+     height: 225px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+    justify-items: flex-start;
+    align-content: flex-start;
+    flex-direction: column;
+    line-height: 25px;
+    font-size: 5px;
+    /* font-weight: 1px; */
+   
+}
+.foot1:hover{
+     text-decoration: underline;
+}
+.foot a{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+
+}
+.foot3{
+    color: white;
+    font-size: 15px;
+}
+.ab{
+    line-height: 20px;
+    margin-top: 30px;
+}
+.br{
+    border-left: 1px solid white;
+    padding-left: 30px;
+}
+.icon{
+    border-top: 1px solid #677785;
+    background-color: #042d4f;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap:30px;
+    /* box-shadow: 0px 100px 100px white; */
+
+}
+.icon1{
+    display: flex;
+    flex-wrap: wrap;
+    gap:30px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    
+}
+.sicon{
+    display: flex;
+    flex-wrap: wrap;
+    gap:10px;
+}
+.icon a{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+}
+.copy{
+    color:white
+}
+.main{
+   
+    display: flex;
+    flex-wrap:wrap ;
+    margin-top: 15px;
+   
+   
+}
+.m1{
+ 
+    width: 100%;
+}
+.main2{
+    margin-top: 15px;
+    display: flex;
+    /* flex-wrap: wrap; */
+    /* gap:2px */
+}
+.bet{
+    display: flex;
+    /* flex-wrap: wrap; */
+    overflow: scroll;
+    height: 400px;
+    column-width: 800px;
+    box-shadow: 0px -1px 5px black;
+    /* justify-content: center;
+    align-content: center; */
+    gap:30px
+
+}
+.lst{
+    box-shadow: -1px 0px 5px black;
+}
+.sbet1 h4 a {
+    color:black
+}
+.sbet1{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:10px;
+}
+.brand{
+    color:rgba(0, 0, 0, 0.539);
+}
+.price{
+    color: green;
+}
+.ho:hover{
+    transform: scale(1.061125);
+}
+.g1{
+    margin-top: 10px;
+}
+@media only screen and (max-width: 800px){
+  .new{
+    width:280px;
+    height: 25px;
+  }
+  .new2{
+    
+    height: 25px;
+  
+  }
+  .sea{
+    scale: 0;
+  }
+  .bet{
+    flex-wrap: wrap;
+  }
+  
+  
+  
+}
+@media only screen and (max-width: 500px){
+    .new{
+      width:180px;
+      height: 18px;
+    }
+  }
+  .hoo{
+    /* position: fixed; */
+  }
+  
